@@ -1,0 +1,29 @@
+.navbar {
+  padding:1rem;
+  background-color: aquamarine;
+
+}
+.navbar-collapse {
+
+  align-items: center;
+  justify-content: space-between;
+ 
+
+  
+  
+
+}
+
+.logo img {
+  width: 2.9rem;
+  border: transparent;
+  border-radius: 50%;
+}
+
+@media screen and (max-width:763px){
+ 
+  .navbar-brand {
+    display: none;
+  }
+
+}

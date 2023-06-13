@@ -1,0 +1,225 @@
+.data {
+  background-color: #888a8a;
+}
+.Home {
+  background-color: #888a8a;
+  margin: auto;
+}
+
+.ciberseguridad-imagen  img {
+  width: 20rem;
+  padding:1rem ;
+  margin: 1rem;
+  
+}
+
+.text-ciberseguridad p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.hero-inferior img {
+  border-radius: 2rem;
+  border: transparent;
+}
+.sobre-mi {
+  background-color:#0c181c;
+  color:white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.experiencias {
+  
+  padding: 40px 40px 60px 40px;
+  display: flex;
+
+  
+  
+}
+
+.card {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: small;
+  height: 100%;
+  
+
+  
+}
+.card img {
+  width: 100%;
+  
+  
+}
+footer {
+  min-height: 500px;
+  margin-top: 1rem;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #040202;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
+
+.footer {
+  background-color: #6aa3b4;
+  width: 100%;
+}
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  margin-top: 2rem;
+  
+  
+ 
+  
+ 
+ 
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.Testimonios-carrusel {
+  width:40rem;
+  height:40rem;
+}
+
+@media screen and (max-width: 400px) {
+  .Testimonios-carrusel {
+    width:100%
+  }
+}
+.carousel-inner img {
+  width: 40rem;
+  height: 30rem;
+}
